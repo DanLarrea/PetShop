@@ -1,0 +1,17 @@
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\PetshopDBApi.deps.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\PetshopDBApi.runtimeconfig.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\PetshopDBApi.runtimeconfig.dev.json
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\PetshopDBApi.dll
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\bin\Debug\netcoreapp2.1\PetshopDBApi.pdb
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.csprojAssemblyReference.cache
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.csproj.CoreCompileInputs.cache
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.RazorAssemblyInfo.cache
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.RazorAssemblyInfo.cs
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.AssemblyInfoInputs.cache
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.AssemblyInfo.cs
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.RazorTargetAssemblyInfo.cache
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.dll
+C:\Users\A4ALUMNO\Documents\Dev\PetshopApi\PetshopDBApi\PetshopDBApi\obj\Debug\netcoreapp2.1\PetshopDBApi.pdb

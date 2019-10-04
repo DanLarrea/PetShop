@@ -1,0 +1,58 @@
+﻿<style>
+
+</style>
+
+<div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../../../default.html">
+            <div class="sidebar-brand-icon rotate-n-15">
+                <i class="fas fa-fw fa-dog"></i>
+            </div>
+            <div class="sidebar-brand-text mx-3">Petshop<sup>Buys</sup></div>
+        </a>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item">
+            <a class="nav-link" ng-click="vm.ShowView('employees')">
+                <i class="fas fa-fw fa-user-astronaut"></i>
+                <span>Employees</span>
+            </a>
+        </li>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <li class="nav-item">
+            <a class="nav-link" ng-click="vm.ShowView('products')">
+                <i class="fas fa-bone"></i>
+                <span>Products</span>
+            </a>
+        </li>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <i class="fas fa-fw fa-paw"></i>
+                <span>Clients</span>
+            </a>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div class="bg-white py-2 collapse-inner rounded">
+                    <h6 class="collapse-header">Options:</h6>
+                    <a class="collapse-item" ng-click="vm.ShowView('clients')">Clients List</a>
+                    <a class="collapse-item" ng-click="vm.ShowView('orders')">Clients Orders</a>
+                </div>
+            </div>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+    </ul>
+    <!-- End of Sidebar -->
+</div>

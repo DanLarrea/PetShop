@@ -1,0 +1,108 @@
+﻿
+<style>
+    .myGrid {
+        height: 295px;
+        left: 0;
+        top: 420px;
+        padding: 3%;
+        margin: 20px;
+        border: none;
+    }
+</style>
+<div class="container">
+    <!-- Page Heading -->
+    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+        <h1 class="h3 mb-0 text-gray-800">Employees</h1>
+    </div>
+    <div class="card o-hidden border-0 shadow-lg my-5">
+        <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+                <div class="col-lg-4 d-none d-lg-block bg-register-image"></div>
+                <div class="col-lg-8">
+                    <div class="p-4">
+                        <div class="text-center">
+                            <h1 class="h4 text-gray-900 mb-4">Add an Employee!</h1>
+                        </div>
+                        <form class="user needs-validation">
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.Name" placeholder="First Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.LastName" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.DNI" placeholder="DNI" required>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="date" class="form-control form-control-user" ng-model="vm.Birthdate" placeholder="Birthdate" required>
+                                </div>
+                                <div class="col-sm-4">
+                                    <input type="number" class="form-control form-control-user" ng-model="vm.Phone" placeholder="Phone" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.Address" placeholder="Address" required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.City" placeholder="City" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control form-control-user" ng-model="vm.Email" placeholder="Email">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="password" class="form-control form-control-user" ng-model="vm.Password" placeholder="Password" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <select class="custom-select form-control-user" ng-model="vm.Area" placeholder="Area" required>
+                                        <option selected>Select Work Area...</option>
+                                        <option value="Marketing">Marketing</option>
+                                        <option value="Sales">Sales</option>
+                                        <option value="Operations">Operations</option>
+                                    </select>
+                                    <!--<input type="text" class="form-control form-control-user" ng-model="vm.Area" placeholder="Area">-->
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control form-control-user" ng-model="vm.JobTitle" placeholder="Job Title" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-9">
+                                    <button class="btn btn-success btn-user btn-block" type="submit" ng-click="vm.AddNewEmployee()" ng-show="vm.IsEditing">
+                                        Create Employee
+                                    </button>
+                                    <button class="btn btn-primary btn-user btn-block" ng-click="vm.UpdateEmployee()" ng-show="!vm.IsEditing">
+                                        Update Employee
+                                    </button>
+                                </div>
+                                <div class="col-sm-3">
+                                    <button type="reset" class="btn btn-secondary btn-user btn-block" ng-show="vm.IsEditing">
+                                        Clean
+                                    </button>
+                                    <button type="reset" class="btn btn-secondary btn-user btn-block" ng-click="vm.ClearForm()" ng-show="!vm.IsEditing">
+                                        Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="card o-hidden border-0 shadow-lg my-5">
+    <div title="Added employees" ui-grid="vm.GridOptions" class="border-left-success myGrid card-body p-0" ui-grid-auto-resize></div>
+</div>
+
+
+
